@@ -5,6 +5,7 @@ import {Component} from '@angular/core';
     selector:'my-form',
     template:`
     {{text}} welcome
+    
     `
 })
 export class FormComponent{
