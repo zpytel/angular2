@@ -7,7 +7,6 @@ import {Component} from '@angular/core';
     <my-form #mycomp></my-form>
     <input #e value="zibi">
     {{e.value}}
-    `
-    
+`
 })
 export class HomeComponent{}
