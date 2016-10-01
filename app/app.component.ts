@@ -15,3 +15,4 @@ import { Component } from '@angular/core';
 export class AppComponent { 
     title="zibi was here";
 }
+//http://blog.ng-book.com/the-ultimate-guide-to-forms-in-angular-2/
