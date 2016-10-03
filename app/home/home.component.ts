@@ -4,9 +4,13 @@ import {Component} from '@angular/core';
     template:`
     <h1>I'm in homeff</h1>
     <button (click)="mycomp.showMessage()">Click</button>
-    <my-form #mycomp></my-form>
+    <my-form #mycomp [value]="'zibi pytel'" (eve)="myeve($event)" ></my-form>
     <input #e value="zibi">
     {{e.value}}
 `
 })
-export class HomeComponent{}
+export class HomeComponent{
+    myeve(val:string){
+        alert(val);
+    }
+}
