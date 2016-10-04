@@ -2,6 +2,7 @@ import { ModuleWithProviders }  from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import {HeroesComponent} from '../heroes/heroes.component';
 import {HomeComponent} from '../home/home.component'
+import {FormSku} from '../form/form.sku';
 
 const appRoutes:Routes=[
 {
@@ -18,6 +19,10 @@ const appRoutes:Routes=[
     path:"home",
     component:HomeComponent
     
+},
+{
+    path:"forms",
+    component:FormSku
 }
 
 ];
